@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Attendance</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1b2a; /* Dark navy */
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #1b263b; /* Lighter navy */
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar a {
+            color: white; /* White text */
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        .navbar a:hover {
+            background-color: #415a77; /* Muted blue on hover */
+            border-radius: 4px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .attendance-image {
+            max-width: 100%;
+            max-height: 80vh;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(255,255,255,0.1); /* Light glow */
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="profile.html">Home</a>
+        <a href="timetable.html">Time Table</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="coursedetails.html">Course Details</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="feedetails.html">Fees Details</a>
+        <a href="medicalleave.html">Medical Leave</a>
+        <a href="settings.html">Settings</a>
+        <a href="contact.html">Contact</a>
+        <a href="logout.html">Logout</a>
+    </div>
+
+    <div class="content">
+        <img src="AT.png" alt="Attendance" class="attendance-image" />
+    </div>
+
+</body>
+</html>

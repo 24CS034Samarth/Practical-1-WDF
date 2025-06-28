@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Course Details</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0d1b2a;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: #1b263b;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+        }
+
+        .navbar a:hover {
+            background-color: #415a77;
+            border-radius: 4px;
+        }
+
+        .content {
+            flex: 1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+        }
+
+        .course-container {
+            background: rgba(255, 255, 255, 0.08);
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            width: 500px;
+            text-align: left;
+            color: #f1f1f1;
+        }
+
+        h2 {
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .course-detail {
+            margin: 15px 0;
+            font-size: 16px;
+        }
+
+        .course-detail strong,
+        ul li strong {
+            color: #00ff88;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="profile.html">Home</a>
+        <a href="timetable.html">Time Table</a>
+        <a href="attendance.html">Attendance</a>
+        <a href="coursedetails.html">Course Details</a>
+        <a href="certificates.html">Certificates</a>
+        <a href="feedetails.html">Fees Details</a>
+        <a href="medicalleave.html">Medical Leave</a>
+        <a href="settings.html">Settings</a>
+        <a href="contact.html">Contact</a>
+        <a href="logout.html">Logout</a>
+    </div>
+
+    <div class="content">
+        <div class="course-container">
+            <h2>Course Details</h2>
+            <div class="course-detail"><strong>Program:</strong> B.Tech in Computer Science & Engineering</div>
+            <div class="course-detail"><strong>Current Semester:</strong> 3</div>
+            <div class="course-detail"><strong>Subjects:</strong></div>
+            <ul>
+                <li><strong>CEUE203 / OOP:</strong> Object Oriented Programming</li>
+                <li><strong>CSUC201 / FDSA:</strong> Fundamentals of Data Structure and Algorithms</li>
+                <li><strong>HSUV201 / CPI:</strong> Creativity, Problem Solving and Innovation</li>
+                <li><strong>ITUC201 / FCN:</strong> Fundamentals of Computer Networks</li>
+                <li><strong>ITUE203 / WDF:</strong> Web Development Frameworks</li>
+                <li><strong>MSUD203 / DM:</strong> Discrete Mathematics</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
